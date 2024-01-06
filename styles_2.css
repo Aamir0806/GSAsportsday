@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.section-head {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+/* .table-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    text-align: center;
+} */
+
+.table-section table {
+    width: 99%;
+    border-collapse: collapse;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table-section th, .table-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-section th {
+    background-color: #00aaff;
+}
+
+
+.card {
+    box-sizing: border-box;
+    width: 100%; /* Take 100% of the screen on mobile */
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    border: 1px solid #c8d2d6;
+    background-color: #00aaff;
+    margin-bottom: 10px; /* Adjust the margin to reduce bottom spacing */
+
+}
+
+header {
+    background-color: #333;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+}
+
+header img {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0px;
+    text-align: left;
+}
+
+@media (min-width: 600px) {
+    .card{
+        width: calc(33.333% - 20px); /* Take 33% of the screen on larger screens with some margin */
+        margin: 10px;
+    }
+}
+
+/* .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+.image-item {
+    box-sizing: border-box;
+    width: 100%; /* Take 100% of the screen on mobile */
+}
+
+@media (min-width: 600px) {
+    .image-item{
+        width: calc(50% - 20px); /* Take 33% of the screen on larger screens with some margin */
+        margin: 10px;
+    }
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+}
