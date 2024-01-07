@@ -23,13 +23,6 @@ body {
     margin: 5px;
 }
 
-/* .table-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ffffff;
-    text-align: center;
-} */
-
 .table-section table {
     width: 99%;
     border-collapse: collapse;
@@ -47,7 +40,6 @@ body {
 .table-section th {
     background-color: #00aaff;
 }
-
 
 .card {
     box-sizing: border-box;
@@ -83,12 +75,6 @@ header img {
     }
 }
 
-/* .image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} */
-
 .image-item {
     box-sizing: border-box;
     width: 100%; /* Take 100% of the screen on mobile */
@@ -104,4 +90,11 @@ header img {
 .image-item img {
     width: 100%;
     height: auto;
+}
+
+.gallery-footer {
+    margin: 5px;
+    padding: 5px;
+    background-color: #00aaff;
+    border-radius: 8px;
 }
